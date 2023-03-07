@@ -17,4 +17,14 @@ Dart learning
 - To rerun your code when the code changes : which fswatch
 - Ask fswatch monitor changes in bin folder: fswatch -o bin/ | xargs -n1 -I{} sh -c'clear; dart bin/projectname.dart'
 - Constant(Cost):
-  - gdfgfdgfdg
+  -  Definition: Const is data that you can specify while you're writing your code, held inside the memory for instance th Heap or Stack.
+  -  Can not change the value after created.
+  -  Can not assign a new value.
+  -  Can not remove from an unmodifiable list ( can not remove by index).
+- Final:
+  - Not allow any any modification to value itself.
+  - Prevent re-assigning the variable to a new value
+- The difference between Const and Final:
+  - Const can't be assigned a new avalue after its creation and its internal value can't be changed either.
+  - Final can't be assigned a new value but its internal value can be changed all 
+- Var:
