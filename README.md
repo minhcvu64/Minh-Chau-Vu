@@ -26,5 +26,13 @@ Dart learning
   - Prevent re-assigning the variable to a new value
 - The difference between Const and Final:
   - Const can't be assigned a new avalue after its creation and its internal value can't be changed either.
-  - Final can't be assigned a new value but its internal value can be changed all 
-- Var:
+  - Final can't be assigned a new value but its internal value can be changed.
+  - Const values can be assigned to final values but not the other way around. 
+- Var variable:
+  - Can re-assigned a new value and its internal value can change as well.
+- Late variable:
+  - Intialized only when they're used.
+- Data types: double, int, String..
+- Variable names : begin with a lowercase and after that Upper case for the first letter of each word.
+
+## Summary of video 4:
